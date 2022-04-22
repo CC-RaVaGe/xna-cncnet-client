@@ -1,4 +1,4 @@
 @echo off
 
-call BuildGame AresRelease
+call BuildGame AresRelease 
 

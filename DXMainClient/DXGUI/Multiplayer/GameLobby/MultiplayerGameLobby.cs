@@ -102,7 +102,7 @@ namespace DTAClient.DXGUI.Multiplayer.GameLobby
 
         private bool gameSaved = false;
 
-        protected MapLoader MapLoader;
+        protected new MapLoader MapLoader;
 
         private bool lastMapChangeWasInvalid = false;
 
