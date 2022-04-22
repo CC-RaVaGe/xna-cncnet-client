@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Yuri's Revenge Redux Client")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Team Redux")]
-[assembly: AssemblyProduct("Team Redux")]
+[assembly: AssemblyProduct("Yuri's Revenge Redux")]
 [assembly: AssemblyCopyright("Copyright © Rampastring 2011-2021, Team Redux 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
