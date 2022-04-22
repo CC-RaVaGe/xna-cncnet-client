@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DTA CnCNet Client UI Library")]
-[assembly: AssemblyDescription("DTA CnCNet Client UI Library")]
+[assembly: AssemblyTitle("YRR Client UI Library")]
+[assembly: AssemblyDescription("YRR Client UI Library")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Rampastring")]
-[assembly: AssemblyProduct("Dawn of the Tiberium Age")]
-[assembly: AssemblyCopyright("Copyright © Rampastring 2014-2020")]
+[assembly: AssemblyCompany("Rampastring, Team Redux")]
+[assembly: AssemblyProduct("Yuri's Revenge Redux")]
+[assembly: AssemblyCopyright("Copyright © Rampastring 2014-2020, Team Redux 2022")]
 [assembly: AssemblyTrademark("Dawn of the Tiberium Age")]
 [assembly: AssemblyCulture("")]
 
