@@ -14,32 +14,24 @@ jobs:
     - uses: actions/checkout@v2
         
     - name: Create Artifacts Directories
-      run: mkdir .\Artifacts\YR & mkdir .\Artifacts\Ares & mkdir .\Artifacts\TS
+      run: mkdir .\Artifacts\ReleaseClient & mkdir .\Artifacts\DebugClient
       shell: cmd
       
-    - name: Build YR
-      run: BuildYR.bat
+    - name: Build Release Client
+      run: 1_Build_Client_Release.bat
       shell: cmd
       working-directory: ./BuildScripts
       
-    - name: Archive YR
-      run: Get-ChildItem -Path "./Compiled/*" -Recurse | Move-Item -Destination "./Artifacts/YR"
+    - name: Archive Release Client
+      run: Get-ChildItem -Path "./Compiled/*" -Recurse | Move-Item -Destination "./Artifacts/ReleaseClient"
       
-    - name: Build Ares
-      run: BuildAres.bat
+    - name: Build Debug Client
+      run: 0_Build_Client_Debug.bat
       shell: cmd
       working-directory: ./BuildScripts
 
-    - name: Archive Ares
-      run: Get-ChildItem -Path "./Compiled/*" -Recurse | Move-Item -Destination "./Artifacts/Ares"
-
-    - name: Build TS
-      run: BuildTS.bat
-      shell: cmd
-      working-directory: ./BuildScripts
-
-    - name: Archive TS
-      run: Get-ChildItem -Path "./Compiled/*" -Recurse | Move-Item -Destination "./Artifacts/TS"
+    - name: Archive Debug Client
+      run: Get-ChildItem -Path "./Compiled/*" -Recurse | Move-Item -Destination "./Artifacts/DebugClient"
 
     - uses: actions/upload-artifact@v2
       name: Upload Artifacts

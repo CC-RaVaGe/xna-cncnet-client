@@ -16,7 +16,6 @@ echo Visual Studio 2017, Visual Studio 2019 or MSBuild required.
 ECHO.
 ECHO.
 goto error
-
 :msbuildok
 
 ECHO.
