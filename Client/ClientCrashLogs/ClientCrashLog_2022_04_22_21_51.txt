@@ -1,9 +1,0 @@
-22.04. 21:51:12.912    KABOOOOOOM!!! Info:
-22.04. 21:51:12.917    Message: Couldn't find ClientDefinitions.ini. Please verify that you're running the client from the correct directory.
-22.04. 21:51:12.920    Source: ClientCore
-22.04. 21:51:12.920    TargetSite.Name: .ctor
-22.04. 21:51:12.923    Stacktrace:    at ClientCore.ClientConfiguration..ctor()
-   at ClientCore.ClientConfiguration.get_Instance()
-   at DTAClient.Domain.MainClientConstants.Initialize()
-   at DTAClient.PreStartup.Initialize(StartupParams parameters)
-   at DTAClient.Program.Main(String[] args)
